@@ -7,4 +7,4 @@ This repository is constantly updated, as the Metadata API and SFDX evolve. Howe
 
 # How To Use
 
-All metadata types with recommendations have a brief readme with more details. Open it to read it.
+You can find all recommendations in the [metadata-types](metadata-types) folder. Each type has a brief readme with more details.
