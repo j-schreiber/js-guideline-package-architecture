@@ -1,10 +1,11 @@
 # Recommendation
 
-Only develop, test and deploy lightning web components in **unlocked packages**.
+Prefer **packaged** to develop, test and deploy LWC components.
 
 # Considerations
 
-- Lightning web components are regularly added to flexi pages and used in quick actions. Typically, a package should bring the component and the flexi page in unpackaged source should use it.
+- LWC components are regularly added to flexi pages and used in quick actions.
+- Typically, a package should contain the component and the flexi page in unpackaged source should "activate" it.
 
 # Links
 
