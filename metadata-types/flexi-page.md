@@ -1,10 +1,10 @@
 # Recommendation
 
-...
+Almost always **unpackaged**.
 
 # Considerations
 
-...
+- Flexi Pages are similar to Layouts. They are constantly updated and usually have to reference fields or LWC/Aura components from multiple packages.
 
 # Links
 
