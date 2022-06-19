@@ -1,6 +1,8 @@
 # Recommendation
 
-...
+Type definitions should always be in **packages**.
+
+Records should mostly be in **packages**, but can also be in **unpackaged**.
 
 # Considerations
 
