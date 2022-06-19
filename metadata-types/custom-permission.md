@@ -1,10 +1,10 @@
 # Recommendation
 
-...
+Always **packaged**.
 
 # Considerations
 
-...
+- Custom Permissions are part of complex implementations and tightly coupled to the LWC component or Apex Class that uses them.
 
 # Links
 
