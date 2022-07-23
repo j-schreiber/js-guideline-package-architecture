@@ -1,14 +1,15 @@
-# Recommendation
+# Organisation
 
-For layouts of standard objects, prefer **unpackaged**.
+**UNPACKAGED** for all general layouts to standard objects and shared custom objects.
 
-If the custom object is exclusively owned by a package, it is acceptable to **package** the layout with it.
+**2GP** for layouts to specific record types or custom objects.
 
 # Considerations
 
-- Standard objects are typically used and extended in multiple packages. A package naturally cannot know about other fields that are introduced in down-stream dependencies or other independent packages.
+- Standard objects are typically used in multiple packages. One package naturally does not know about other fields that are introduced in downstream dependencies or other independent packages.
 - Sometimes, we need to provide temporary custom fields for _quick and dirty_ solutions. These fields need to be added to layouts as well.
-- Business often wants to re-arrange layouts for better usability. Minor changes in the presentation layer of our data should never require package upgrades.
+- Business often wants to re-arrange layouts for better usability. Minor changes in the presentation layer of our data should not require package upgrades.
+- Carefully consider where a custom object will be used. If your package introduces a custom object and will **exclusively** use it, put the layouts in the same package. If other downstream dependencies extend the object, place all layouts in **UNPACKAGED**.
 
 # Links
 

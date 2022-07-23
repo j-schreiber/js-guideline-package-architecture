@@ -1,8 +1,8 @@
-# Recommendation
+# Organisation
 
-Prefer **packaged** for queue's definition without queue members or queue email.
+Mostly **2GP**.
 
-If queue members or queue emails are under version control, override the queue in **unpackaged**.
+**UNPACKAGED** to override queue members or queue emails.
 
 # Considerations
 

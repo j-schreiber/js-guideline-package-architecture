@@ -1,11 +1,10 @@
-# Recommendation
+# Organisation
 
-Prefer **packaged** to develop, test and deploy LWC components.
+**2GP** only.
 
 # Considerations
 
-- LWC components are regularly added to flexi pages and used in quick actions.
-- Typically, a package should contain the component and the flexi page in unpackaged source should "activate" it.
+- LWC is one of the very few metadata types, that cannot be developed with the original "Developer Console" and must be developed in a source driven process.
 
 # Links
 

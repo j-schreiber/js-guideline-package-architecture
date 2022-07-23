@@ -1,12 +1,12 @@
-# Recommendation
+# Organisation
 
-Strong preference for **unpackaged**.
+Mostly **2GP** for field updates.
 
-There are rare occassions, where **packaged** is acceptable.
+Mostly **UNPACKAGED** for email alerts.
 
 # Considerations
 
-- Workflows can be considered deprecated and should mostly have been replaced by flows by now.
+- Workflows can be considered deprecated and should mostly have been replaced with flows by now.
 - Workflows are not optimized for source driven development: They are still in the old "MDAPI" format (rules, alerts and updates are all in a single file).
 - We can install multiple packages in an org that all have their own workflow-file on the same object.
 - Email alerts usually require real email addresses as recipients. We definitely do not want to use these during development. As as result, we have to use fake emails during development and we almost always have to override the email alert in happy-soup later.

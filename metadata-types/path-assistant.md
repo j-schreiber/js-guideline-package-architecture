@@ -1,12 +1,12 @@
-# Recommendation
+# Organisation
 
-Only **unpackaged**.
+**UNPACKAGED**.
 
 # Considerations
 
 - Translations of path assistants are not yet supported by Metadata API.
-- Path assistants are regularly updated, because process instructions may change often.
-- If the assistant references a standard value set (e.g. `CaseStatus`, `LeadStatus`), deployment is buggy. In many cases, the assistant cannot be deployed because of internal errors.
+- The texts in path assistants are regularly updated and minor changes in help texts should not require package upgrades.
+- If the assistant references a standard value set (e.g. `CaseStatus`, `LeadStatus`), deployment is buggy. In many situations, the assistant cannot be deployed because of internal errors.
 
 # Links
 
@@ -14,5 +14,5 @@ Only **unpackaged**.
 
 # Related Types
 
-- Record Type
+- [Record Type](record-type.md)
 - Translations

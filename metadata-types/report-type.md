@@ -1,11 +1,12 @@
-# Recommendation
+# Organisation
 
-**Unpackaged**.
+Mostly **UNPACKAGED**.
 
 # Considerations
 
-- Report types should include fields from all packages, even if they are on separate dependency trees
-- Adding, renaming or removing fields is common and should not require a package upgrade
+- Report types usually include fields from all packages, even if they are on separate dependency trees. Especially report types that include standard objects or shared custom objects should be maintained in happy-soup.
+- Adding, renaming or removing fields is common and should not require a package upgrade.
+- Report types that are deployed with 2GP cannot be modified on the target org.
 
 # Links
 

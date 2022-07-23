@@ -1,10 +1,10 @@
-# Recommendation
+# Organisation
 
-Strong preference for unpackaged.
+**2GP** for automations.
 
-# Subtypes
+# Considerations
 
-Flows include process builder,
+...
 
 # Links
 

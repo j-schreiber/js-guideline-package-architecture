@@ -1,6 +1,6 @@
-# Recommendation
+# Organisation
 
-...
+Mostly **2GP**.
 
 # Considerations
 

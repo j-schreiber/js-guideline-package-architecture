@@ -1,11 +1,12 @@
-# Recommendation
+# Organisation
 
-Prefer **packaged** to develop, test and deploy aura components.
+**2GP** only.
 
 # Considerations
 
-- Aura components are regularly added to flexi pages and used in quick actions.
-- Typically, a package should contain the component and the flexi page in unpackaged source should "activate" it.
+- You shouldn't use aura any more. Move to [LWC](lightning-component-bundle.md) instead for better developer experience and testability.
+- Aura components are usually not stand-alone. They are regularly added to flexi pages, quick actions and flows.
+- It makes sense to develop and deploy your components in a second-generation package (either as a library package or functional package) and _use_ the components from unpackaged source.
 
 # Links
 
@@ -16,3 +17,4 @@ Prefer **packaged** to develop, test and deploy aura components.
 - [Flexi Page](flexi-page.md)
 - [Quick Action](quick-action.md)
 - [Flow](flow.md)
+- [LWC](lightning-component-bundle.md)

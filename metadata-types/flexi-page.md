@@ -1,10 +1,12 @@
-# Recommendation
+# Organisation
 
-Almost always **unpackaged**.
+Mostly **UNPACKAGED**.
 
 # Considerations
 
 - Flexi Pages are similar to Layouts. They are constantly updated and usually have to reference fields or LWC/Aura components from multiple packages.
+- Salesforce constantly adds new features to flexi pages. Dynamic Forms and Dynamic Actions, they have replaced layouts by now.
+- Lightning Email Templates are also deployed as flexi pages. Maintaining those from source is much harder than classic templates, and not recommended.
 
 # Links
 

@@ -1,6 +1,6 @@
-# Recommendation
+# Organisation
 
-Always **packaged**.
+Always **2GP**.
 
 # Considerations
 

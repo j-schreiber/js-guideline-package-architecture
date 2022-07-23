@@ -1,10 +1,12 @@
-# Recommendation
+# Organisation
 
-Only **packaging**.
+**2GP** only.
 
 # Considerations
 
-...
+- In a healthy team and an org that is actively developed, apex classes get renamed, deleted and created a lot.
+- They are one of the few metadata components, that cannot be modified on production via UI and must be changed using an API deployment.
+- The automatic deletion of removed apex classes during package upgrades is an absolute game changer.
 
 # Links
 
