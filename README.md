@@ -11,19 +11,25 @@ You can find all recommendations in the [metadata-types](metadata-types) folder.
 
 # Overview
 
+**2GP** - Second-generation packaging. Deployed with package install.
+
+**happy-soup** - Your primary unpackaged metadata in a single repository. Deployed with source deploy or mdapi deploy.
+
+**isolated** - An isolated repository for unpackaged metadata that is not deployed with the rest of happy-soup. Often requires additional deployment steps.
+
 | Metadata                                                                   | Primary Organisation |
 | -------------------------------------------------------------------------- | -------------------: |
-| [Apex Class](metadata-types/apex-class.md)                                 |              2GP[^1] |
+| [Apex Class](metadata-types/apex-class.md)                                 |                  2GP |
 | [Test Suite](metadata-types/apex-test-suite.md)                            |                  2GP |
 | [Apex Trigger](metadata-types/apex-trigger.md)                             |                  2GP |
-| [Audience](metadata-types/audience.md)                                     |         isolated[^3] |
+| [Audience](metadata-types/audience.md)                                     |             isolated |
 | [Aura Definition Bundle](metadata-types/aura-definition-bundle.md)         |                  2GP |
 | [Custom Field](metadata-types/custom-field.md)                             |                  2GP |
 | [Custom Labels](metadata-types/custom-labels.md)                           |                  2GP |
 | [Custom Metadata](metadata-types/custom-metadata.md)                       |                  2GP |
 | [Custom Object](metadata-types/custom-object.md)                           |                  2GP |
 | [Custom Permission](metadata-types/custom-permission.md)                   |                  2GP |
-| [Email](metadata-types/email.md)                                           | 2GP / happy-soup[^2] |
+| [Email](metadata-types/email.md)                                           | 2GP / happy-soup[^*] |
 | [Experience](metadata-types/experience.md)                                 |             isolated |
 | [Flexi Page](metadata-types/flexi-page.md)                                 |           happy-soup |
 | [Flow](metadata-types/flow.md)                                             |                  2GP |
@@ -36,16 +42,15 @@ You can find all recommendations in the [metadata-types](metadata-types) folder.
 | [Permission Set Group](metadata-types/permission-set-group.md)             |           happy-soup |
 | [Permission Set](metadata-types/permission-set.md)                         |           happy-soup |
 | [Profile](metadata-types/profile.md)                                       |           happy-soup |
-| [Queue](metadata-types/queue.md)                                           |     2GP / happy-soup |
+| [Queue](metadata-types/queue.md)                                           | 2GP / happy-soup[^*] |
 | [Quick Action](metadata-types/quick-action.md)                             |                  2GP |
-| [Record Type](metadata-types/record-type.md)                               |                  2GP |
+| [Record Type](metadata-types/record-type.md)                               | 2GP / happy-soup[^*] |
 | [Report Type](metadata-types/report-type.md)                               |           happy-soup |
 | [Role](metadata-types/role.md)                                             |           happy-soup |
 | [Sharing Rule](metadata-types/sharing-rule.md)                             |           happy-soup |
 | [Sharing Set](metadata-types/sharing-set.md)                               |             isolated |
+| [Standard Value Set](metadata-types/standard-value-set.md)                 |           happy-soup |
 | [Validation Rule](metadata-types/validation-rule.md)                       |                  2GP |
-| [Workflow](metadata-types/workflow.md)                                     |     2GP / happy-soup |
+| [Workflow](metadata-types/workflow.md)                                     | 2GP / happy-soup[^*] |
 
-[^1]: **2GP** - Second-generation packaging. Deployed with package install.
-[^2]: **happy-soup** - Your primary unpackaged metadata in a single repository. Deployed with source deploy or mdapi deploy.
-[^3]: **isolated** - An isolated repository for unpackaged metadata that is not deployed with the rest of happy-soup. Often requires additional deployment steps.
+[^*]: See details for explanation
