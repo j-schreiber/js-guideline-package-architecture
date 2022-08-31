@@ -24,6 +24,7 @@ You can find all recommendations in the [metadata-types](metadata-types) folder.
 | [Apex Trigger](metadata-types/apex-trigger.md)                             |                  2GP |
 | [Audience](metadata-types/audience.md)                                     |             isolated |
 | [Aura Definition Bundle](metadata-types/aura-definition-bundle.md)         |                  2GP |
+| [Custom Application](metadata-types/custom-application.md)                 | happy-soup & 2GP[^*] |
 | [Custom Field](metadata-types/custom-field.md)                             |                  2GP |
 | [Custom Labels](metadata-types/custom-labels.md)                           |                  2GP |
 | [Custom Metadata](metadata-types/custom-metadata.md)                       |                  2GP |
